@@ -1,0 +1,297 @@
+body, html{
+ height: 100%;
+ margin: 0;
+  
+}
+
+.block {
+  padding: 1%;
+  width: 80%;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bgimg-1 {
+  background: url(../img/img1.jpg) center center no-repeat fixed;
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url(../img/img2.jpg);
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url(../img/img3.jpg);
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+#pageEducation2{
+	visibility: visible;
+	animation-name: fadeInUp;
+	animation-duration: 
+	padding:50px 80px;
+	text-align: justify;
+}
+
+.pageEducation {
+  min-height: 33vh;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+ 
+}
+
+
+
+.pageSkills{
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+.pageChris{
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:50px 80px;
+	text-align: center;
+	
+}
+
+.pageExp{
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+.headings{
+	    line-height: 1.3em;
+    	text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+
+.item {
+	
+  
+  position: absolute;
+  top: 2500px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 50%;
+              
+}
+
+.path2 {
+  stroke-dasharray: 580;
+/*   stroke-dashoffset: 800; */
+  animation: draw1 6s ease-out reverse;
+}
+
+@keyframes draw1 {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 1120;
+  }
+}
+
+:root {
+  --color-1: forestgreen;
+  --color-2: lightskyblue;
+  --color-3: darksalmon;
+  --color-4: palegoldenrod;
+  --color-5: mediumvioletred;
+}
+
+.foo {
+  min-height: 33vh;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+/* apply colors */
+.foo-1 {
+  background-color: var(--color-1);
+}
+
+.foo-2 {
+  background-color: var(--color-2);
+}
+
+.foo-3 {
+  background-color: var(--color-3);
+}
+
+.foo-4 {
+  background-color: var(--color-4);  
+}
+
+.foo-5 {
+  background-color: var(--color-5);
+}
+
+.bar {
+  min-height: 8vh;
+  margin-bottom: 10px;
+  padding: 2px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.SkillRow
+{
+    display: table;
+    width: 100%; /*Optional*/
+    
+}
+.SkillColumn
+{
+    display: table-cell;
+    
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact_container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* ------------------------------------------------------------------------------
+   Contact
+-------------------------------------------------------------------------------*/
+ 
+.contact h2 {
+	margin-bottom: 1.5em;
+
+	font-weight:700;
+	font-size:27px;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+.contact-form {
+	border-radius: 5px;
+	text-align:center;
+	margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.contact-form .form-control {
+	border-color: #ddd;
+	margin-bottom: .75em;
+	padding: .75em 5px;
+}
+.contact-form label.error {
+	margin-bottom: 12px;
+	font-weight: 300;
+	color: #ea5050;
+}
+.contact .btn-default {
+	width: 100%;
+	
+}
+/* ------------------------------------------------------------------------------
+   contact Form Validation
+-------------------------------------------------------------------------------*/
+   
+
+.contact-form label.error i {
+	padding-right: 8px;
+}
+.success-cf, .error-cf {
+	display: none;
+}
+.success-cf p {
+	background: rgba(39, 174, 96, 0.7);
+}
+.error-cf p {
+	background: rgba(231, 76, 60, 0.7);
+}
+.contact-form {
+	position: relative;
+}
+.contact-form .success-cf p, .contact-form .error-cf p {
+	position: absolute;
+	display: block;
+	top: 40%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+	color: #fff;
+	border-radius: 2px;
+	padding: .75em;
+}
