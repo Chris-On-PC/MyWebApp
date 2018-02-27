@@ -1,6 +1,6 @@
 <?php
  
-    $to = "contact.designstub.com"; //Change email here
+    $to = "chrisviviers1@gmail.com"; 
     $from = $_REQUEST['email']; 
     $name = $_REQUEST['name']; 
     $headers = "From: $from"; 
@@ -13,6 +13,15 @@
  
     $body = "Here is what was sent:\n\n"; foreach($fields as $a => $b){   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]); }
  
-    $send = mail($to, $subject, $body, $headers);
+    //$send = mail($to, $subject, $body, $headers);
+
+    if ($_POST['submit']) {
+    if (mail ($to, $subject, $body, $headers)) { 
+        echo '<p>Your message has been sent!</p>';
+    } else { 
+        echo '<p>Something went wrong, go back and try again!</p>'; 
+    }
+}
  
 ?>
+

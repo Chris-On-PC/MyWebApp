@@ -15,6 +15,9 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!--Fonts -->
+    <link href="https://www.fontify.me/wf/42216a06e8977da4ccec1ff4702d0922" rel="stylesheet" type="text/css">
     <!--Some JS-->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="js/main.js"></script>
@@ -39,18 +42,18 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#home">Home</a></li>
             
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Me<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">C.G.A. Viviers</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#chris">C.G.A. Viviers</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Download</li>
-                <li><a href="#">Resume</a></li>
+                <li><a download="filename">Resume</a></li>
                 
               </ul>
             </li>
@@ -58,11 +61,11 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Twitter </a></li>
-
-            <li><a href="#">LinkedIn </a></li>
+            <li><a href="https://www.facebook.com/christiaan.viviers.1" target="_blank"><img src = "img/facebook.png" class="logos"></a></li>
+            <li><a href="https://github.com/Chris-On-PC" target="_blank"><img src = "img/github.svg" class="logos"></a></li>
+            <li><a href="https://twitter.com/Chris_Viviers" target="_blank" > <img src = "img/twitter.png" class="logos"> </img> </a>     </li>
+            
+            <li><a href="www.linkedin.com/in/christiaan-viviers-4478a5112" target="_blank"><img src = "img/linkedin.png" class="logos"> </a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -71,9 +74,9 @@
    
 
 
-
+    <a name="home"></a>
     <div class="bgimg-1 ">
-          <div class="container block">
+          <div class="container Omni-block">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron text-center">
@@ -87,12 +90,12 @@
 
     </div> 
 
-
-
     </div>
 
+    <div class="pageChris">
+      <a name="chris"></a>
     <div class = "row text-center">
-    <h1 >01 C.G.A.Viviers</h1>
+    <h1 class="font_3" style="text-align:center;"><span class="color_head">01</span>&nbsp;C.G.A. Viviers</h1>
     <div class = "col-md-6 text-center">
       <h1>About Me</h1>
       <p>
@@ -102,32 +105,36 @@
       
       </div>
     <div class = "col-md-6">
-      <img src="img/pp.gif" alt="Avatar" style="width:150px text-center">
+      <img src="img/pp.jpg" class = "img-circle" >
 
       
       </div>
     </div>
 
 
+    </div>
+    
+
+
 
    
 
-<div class = "bgimg-2">
+<div class = "bgimg-2 pageEducation">
+<a name="edu"></a>
   <div class="container ">
 
       <div class = "row">
       <div class = "col-md-12">
-        <h2 class= "headings text-center">02 Education</h2>
+
+      <h3 class="font_4" style="text-align:center;"><span class="color_25">02</span>&nbsp;Education</h3>
+        
 
         <ul id = "pageEducation">
-                <li class = "pageEducation foo-2">December 2011 Graduated from High School at Oudtshoorn High School, Oudtshoorn</li>
-                <li class = "pageEducation foo-2">December 2015 Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</li>
-                <li class = " pageEducation foo-2">March 2018 Masters Degree in Electrical and Electronic Engineering Biotechnology Specialization, Stellenbosch University, Stellenbosch</li>
+                <li class = "eduBoxes "> <span class="color_head">December 2011</span> Graduated from High School at Oudtshoorn High School, Oudtshoorn</li>
+                <li class = "eduBoxes "> <span class="color_head">December 2015</span> Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</li>
+                <li class = "eduBoxes "> <span class="color_head">March 2018</span> Masters Degree in Electrical and Electronic Engineering Biotechnology Specialization, Stellenbosch University, Stellenbosch</li>
 
               </ul>
-        
-              
-              
 
       </div>
 
@@ -150,16 +157,21 @@
 
 <div class="foo  foo-5">Fifth
 </div>
--->
- 
 
-<div class = "bgimg-3">
+ -->
+ <div>
+   
+
+ </div>
+
+<div class = "bgimg-3 pageExp">
+<a name="exp"></a>
 
 
 
-
-  <div class="container block">
-  <h2 class= "headings">03 Experience</h2>
+  <div class="container">
+  <h3 class="font_4" style="text-align:center;"><span class="color_25">03</span>&nbsp;Experience</h3>
+  
   <div class = "row">
   
       <div class = "col-md-6">
@@ -168,20 +180,20 @@
     
         
 
-        <h3 class= "headings">December 2011 Graduated from High School at Oudtshoorn High School, Oudtshoorn</h3>
+        <h3 class= "expBoxes">December 2011 Graduated from High School at Oudtshoorn High School, Oudtshoorn</h3>
 
         </div>
         </div>
         <div class="row">
         <div class = "col-md-offset-6 col-md-6">
           
-          <h3 class= "headings">December 2015 Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</h3>
+          <h3 class= "expBoxes">December 2015 Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</h3>
         </div>
         </div>
         <div class="row">
         <div class = "col-md-6">
           
-          <h3 class= "headings">December 2015 Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</h3>
+          <h3 class= "expBoxes">December 2015 Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</h3>
         </div>
         </div>
 
@@ -189,31 +201,62 @@
 </div>
 
 
-<div>
-  <div class="container block text-center">
+<div class = "bgimg-4">
+<a name="skills"></a>
+  <div class="container pageSkills">
     
-        <h2 class= "headings">04 Skills</h2>
+        <h3 class="font_4" style="text-align:center;"><span class="color_25">04</span>&nbsp;Skills</h3>
 
         <div class="row">
         <div class = "col-md-6">
-        <h3>Software</h3>
-          <div class="SkillRow">
-          <div class = "SkillColumn">Python</div>
-          <div class="SkillColumn bar foo-1">80%</div>
-          
-   
-          </div>
-        
+        <h3 class="font_2">Software</h3>
+
+        <div class="row">  <div class = "col-md-3 SkillColumn" > Python</div>
+        <div class = "col-md-6 barAdvanced foo-1">Advanced</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">Matlab </div>
+        <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">HTML & CSS </div>
+        <div class = "col-md-6  barIntermediate foo-1">Intermediate</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">JavaScript </div>
+        <div class = "col-md-6 barBasic ">Basic</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">C </div>
+        <div class = "col-md-6  barAdvanced foo-1">Advanced</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">Matlab </div>
+        <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">Matlab </div>
+        <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
         </div>
 
         <div class = "col-md-6">
-         <h3>Other</h3>
-          <div class="SkillRow">
-          <div class = "SkillColumn">Python</div>
-          <div class="SkillColumn bar foo-1">80%</div>
-          
-   
-          </div>
+         <h3 class="font_2">Other</h3>
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
+          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
+          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
+          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
+          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
+          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
+          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
+          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+
         
         </div>
 
@@ -221,12 +264,17 @@
 
   </div> 
 </div>
+
+
+
 
 <div class = "bgimg-5">
 
+<a name = "contact"></a>
 
-<h2 class= "headings">05 Contact</h2>
-<div class="contact-form">
+<div class="container pageContact">
+<div class="contact-form" >
+<h3 class="font_3" style="text-align:center;"><span class="color_25">05</span>&nbsp;Contact</h3>
           <form role="form" action="php/contact.php" method="post" id="contact-form">
           <div class="row">
             <div class="col-md-6">
@@ -259,19 +307,25 @@
           
 
         </div>
+        </div>
+
 </div>
-
-
-
-
-    <!--<h1>Hello, world!</h1>-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
     <script type="text/javascript">
+
+
+sr.reveal('.eduBoxes', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.barBasic', { duration: 600 });
+
+
       sr.reveal('.foo-1', { duration: 600 });
 
 sr.reveal('.foo-2', { 
@@ -299,5 +353,15 @@ sr.reveal('.item', {
 
 
     </script>
+
+    <footer class="pageFooter text-center">
+    <div >
+  <p>© 2018 All rights reserved. Made by OmniTek-Fus.</p>
+  
+
+  </div>
+</footer>
+
   </body>
+
 </html>
