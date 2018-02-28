@@ -15,13 +15,8 @@
  
     //$send = mail($to, $subject, $body, $headers);
 
-    if ($_POST['submit']) {
-    if (mail ($to, $subject, $body, $headers)) { 
-        echo '<p>Your message has been sent!</p>';
-    } else { 
-        echo '<p>Something went wrong, go back and try again!</p>'; 
-    }
-}
+    $send = mail($to, $subject, $body, $headers);
+    header("location:http://omnitek-fus.com"); 
  
 ?>
 
