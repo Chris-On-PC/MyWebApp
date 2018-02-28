@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head profile="http://www.omnitek-fus.com">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +22,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
     
   </head>
@@ -42,7 +43,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#home">Home</a></li>
+            <li ><a href="#home">Home</a></li>
             
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Me<span class="caret"></span></a>
@@ -84,7 +85,7 @@
         <h2>Always Learning, Always Evolving</h2>
         
         <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Learn More &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="#contact" role="button" style="margin-top: 2%;">Learn More &raquo;</a>
         </p>
       </div>
 
@@ -97,8 +98,9 @@
     <div class = "row text-center">
     <h1 class="font_3" style="text-align:center;"><span class="color_head">01</span>&nbsp;C.G.A. Viviers</h1>
     <div class = "col-md-6 text-center">
-      <h1>About Me</h1>
-      <p>
+      <h1 class="font_1">About Me</h1>
+      <p style="text-align:justify; padding: 8%; font-size: 1.1em; font-family: font-family: font97579;">
+      I am a recently graduated technology enthusiast. My passion for technology is especially owed to the recent developments in machine learning, AI and biotech. Born and raised in South Africa, I have learnt how to make-do with the limited resources at hand. I have a never-ending desire to learn new things. I believe in the value of an open-minded perspective and know that learning new things can be through engaging with new cultures, especially through traveling. Aside from investing the majority of my time in further self-development, I enjoy socialising and meeting new people.    
 
 
       </p>
@@ -113,7 +115,6 @@
 
 
     </div>
-    
 
 
 
@@ -130,9 +131,11 @@
         
 
         <ul id = "pageEducation">
-                <li class = "eduBoxes "> <span class="color_head">December 2011</span> Graduated from High School at Oudtshoorn High School, Oudtshoorn</li>
-                <li class = "eduBoxes "> <span class="color_head">December 2015</span> Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</li>
-                <li class = "eduBoxes "> <span class="color_head">March 2018</span> Masters Degree in Electrical and Electronic Engineering Biotechnology Specialization, Stellenbosch University, Stellenbosch</li>
+                <li class = "eduBoxes "> <span class="color_date style_date">December 2011</span> Graduated High School, Oudtshoorn High School, Average 82%.</li>
+                <li class = "eduBoxes "> <span class="color_date style_date">December 2015</span> Graduated Degree in Electrical and Electronic Engineering, Informatics, Stellenbosch University.</li>
+                <li class = "eduBoxes "> <span class="color_date style_date">October 2017</span> Completed course on Machine Learning, Coursera.</li>
+                <li class = "eduBoxes "> <span class="color_date style_date">March 2018</span> Graduated Masters Degree in Electrical and Electronic Engineering, Biotechnology, Cum Laude, Stellenbosch University.</li>
+
 
               </ul>
 
@@ -142,23 +145,7 @@
 
   </div> 
 </div>
-<!--
-<div class="foo  foo-1">First
-</div>
 
-<div class="foo  foo-2">Second
-</div>
-
-<div class="foo  foo-3">Third
-</div>
-
-<div class="foo  foo-4">Fourth
-</div>
-
-<div class="foo  foo-5">Fifth
-</div>
-
- -->
  <div>
    
 
@@ -180,20 +167,26 @@
     
         
 
-        <h3 class= "expBoxes">December 2011 Graduated from High School at Oudtshoorn High School, Oudtshoorn</h3>
+        <h3 class= "expBoxes"> <span class="color_date style_exp_date">June 2015 - November 2015</span> Patented technology on proof of concept biosensor developed during undergraduate thesis.</h3>
 
         </div>
         </div>
         <div class="row">
         <div class = "col-md-offset-6 col-md-6">
           
-          <h3 class= "expBoxes">December 2015 Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</h3>
+          <h3 class= "expBoxes"> <span class="color_date style_exp_date">December 2015</span> Won Jac van der Merwe competition for most innovative undergraduate thesis in the department of engineering, Stellenbosch University.</h3>
         </div>
         </div>
         <div class="row">
         <div class = "col-md-6">
           
-          <h3 class= "expBoxes">December 2015 Graduated with degree in Electrical and Electronic Engineering Informatics Specialization, Stellenbosch University, Stellenbosch</h3>
+          <h3 class= "expBoxes"> <span class="color_date style_exp_date">February 2016 - December 2017</span> Further developed biosening technology and apply it to the detection of Autophagy Flux.</h3>
+        </div>
+        </div>
+        <div class="row">
+        <div class = "col-md-offset-6 col-md-6">
+          
+          <h3 class= "expBoxes"> <span class="color_date style_exp_date">February 2018</span> Developed this website.</h3>
         </div>
         </div>
 
@@ -212,50 +205,64 @@
         <h3 class="font_2">Software</h3>
 
         <div class="row">  <div class = "col-md-3 SkillColumn" > Python</div>
-        <div class = "col-md-6 barAdvanced foo-1">Advanced</div></div>
+        <div class = "col-md-6 barIntermediate ">Intermediate</div></div>
 
         <div class="row"> <div class = "col-md-3 SkillColumn">Matlab </div>
-        <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+        <div class = "col-md-6 barIntermediate">Intermediate</div></div>
 
         <div class="row"> <div class = "col-md-3 SkillColumn">HTML & CSS </div>
-        <div class = "col-md-6  barIntermediate foo-1">Intermediate</div></div>
+        <div class = "col-md-6  barIntermediate ">Intermediate</div></div>
 
         <div class="row"> <div class = "col-md-3 SkillColumn">JavaScript </div>
         <div class = "col-md-6 barBasic ">Basic</div></div>
 
+        <div class="row"> <div class = "col-md-3 SkillColumn">PHP </div>
+        <div class = "col-md-6 barBasic ">Basic</div></div>
+
         <div class="row"> <div class = "col-md-3 SkillColumn">C </div>
-        <div class = "col-md-6  barAdvanced foo-1">Advanced</div></div>
+        <div class = "col-md-6  barAdvanced ">Advanced</div></div>
 
-        <div class="row"> <div class = "col-md-3 SkillColumn">Matlab </div>
-        <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+        <div class="row"> <div class = "col-md-3 SkillColumn">Java </div>
+        <div class = "col-md-6 barBasic ">Basic</div></div>
 
-        <div class="row"> <div class = "col-md-3 SkillColumn">Matlab </div>
-        <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+        <div class="row"> <div class = "col-md-3 SkillColumn">mySQL </div>
+        <div class = "col-md-6 barBasic ">Basic</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">AutoCad: Inventor </div>
+        <div class = "col-md-6 barIntermediate ">Intermediate</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">Version Control: Git </div>
+        <div class = "col-md-6 barIntermediate ">Intermediate</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">Eagle </div>
+        <div class = "col-md-6 barIntermediate ">Intermediate</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">MS Office </div>
+        <div class = "col-md-6 barAdvanced ">Advanced</div></div>
+
+        <div class="row"> <div class = "col-md-3 SkillColumn">Android Mobile Development </div>
+        <div class = "col-md-6 barBasic ">Basic</div></div>
 
         </div>
 
         <div class = "col-md-6">
          <h3 class="font_2">Other</h3>
-          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
-          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Antibody Work</div>
+          <div class = "col-md-6 barIntermediate ">Intermediate</div></div>
 
-          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
-          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Hardware Development</div>
+          <div class = "col-md-6 barIntermediate ">Intermediate</div></div>
 
-          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
-          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Small Talk</div>
+          <div class = "col-md-6 barAdvanced ">Advanced</div></div>
 
-          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
-          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Self Learn</div>
+          <div class = "col-md-6 barAdvanced ">Advanced</div></div>
 
-          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
-          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
+          <div class="row"> <div class = "col-md-3 SkillColumn" > Manual Labour</div>
+          <div class = "col-md-6 barAdvanced ">Advanced</div></div>
 
-          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
-          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
 
-          <div class="row"> <div class = "col-md-3 SkillColumn" > Python</div>
-          <div class = "col-md-6 barIntermediate foo-1">Intermediate</div></div>
 
         
         </div>
@@ -274,7 +281,7 @@
 
 <div class="container pageContact">
 <div class="contact-form" >
-<h3 class="font_3" style="text-align:center;"><span class="color_25">05</span>&nbsp;Contact</h3>
+<h3 class="font_3" style="text-align:center;"><span class="color_25">  05</span>&nbsp;Contact</h3>
           <form role="form" action="php/contact.php" method="post" id="contact-form">
           <div class="row">
             <div class="col-md-6">
@@ -309,7 +316,20 @@
         </div>
         </div>
 
+        <div class="container pageContact" style="margin-top: 5%; padding-left: 25%; ">
+        <ul class="nav navbar-nav">
+          <li><a class="font_1">Get in touch at:</a></li>
+            <li><a href="https://www.facebook.com/christiaan.viviers.1" target="_blank"><img src = "img/facebook.png" class="logos"></a></li>
+            <li><a href="https://github.com/Chris-On-PC" target="_blank"><img src = "img/github.svg" class="logos"></a></li>
+            <li><a href="https://twitter.com/Chris_Viviers" target="_blank" > <img src = "img/twitter.png" class="logos"> </img> </a>     </li>
+            
+            <li><a href="www.linkedin.com/in/christiaan-viviers-4478a5112" target="_blank"><img src = "img/linkedin.png" class="logos"> </a></li>
+          </ul>
+        </div>
+
 </div>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -323,10 +343,13 @@ sr.reveal('.eduBoxes', {
   duration: 2000 
 });
 
-sr.reveal('.barBasic', { duration: 600 });
+sr.reveal('.barBasic', { duration: 1000 ,viewFactor: 0.8});
+sr.reveal('.barIntermediate', { duration: 1000 ,viewFactor: 0.8});
+sr.reveal('.barAdvanced', { duration: 1000 ,viewFactor: 0.8});
 
+sr.reveal('.expBoxes', { duration: 1000 ,viewFactor: 0.8,rotate: { x: 100, y: 100, z: 0 }});
 
-      sr.reveal('.foo-1', { duration: 600 });
+sr.reveal('.foo-1', { duration: 600 });
 
 sr.reveal('.foo-2', { 
   origin: 'right', 
@@ -356,10 +379,10 @@ sr.reveal('.item', {
 
     <footer class="pageFooter text-center">
     <div >
-  <p>© 2018 All rights reserved. Made by OmniTek-Fus.</p>
-  
-
+  <p>© 2018 All rights reserved. Made by <a href="https://www.omnitek-fus.com">OmniTek-Fus</a>.</p>
   </div>
+   
+          
 </footer>
 
   </body>
