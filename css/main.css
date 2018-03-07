@@ -1,234 +1,212 @@
 body, html{
  height: 100%;
  margin: 0;
-  
+ box-sizing: border-box;
+ font-family:SIMPLIFICA;
 }
 
-.block {
-  padding: 1%;
-  width: 80%;
+img, embed, object, video {
+	max-width: 100%;
 }
 
-.Omni-block{
-	padding: 10%;
-
-	
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
 
-.jumbotron{
-	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
-	background-color: #f5f5f0;
-	font-family: font97579;
+.custom-header1{
+	font-weight: bolder;
+	font-size: 3em;
+	text-shadow:  2px 2px 8px #000000;	
 }
-/* ------------------------------------------------------------------------------
-   Images
--------------------------------------------------------------------------------*/
 
+.custom-header2{
+	font-weight: bolder;
+	font-size: 3em;
+	color: white;
+	text-shadow:  2px 2px 8px #000000;	
+}
+
+.custom-header3{
+	font-weight: bolder;
+	text-shadow:  2px 2px 8px #000000;	
+	margin: auto;
+}
+.custom-header-number1{	
+	text-shadow:  2px 2px 8px #00CCFF;
+}
+.custom-date{
+ font-size: 1.2em;
+ font-weight: bolder;
+}
+
+.navbar_custom{
+	padding-left: 5%;
+	padding-right: 5%;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.7);		
+}
+.social_media_logo{
+	width: 30px;
+	margin-left: 20px;	
+}
+
+.social_media_logo:hover  {
+    filter: brightness(0.3);
+}
+  /* Create the parallax scrolling effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+
   position: relative;
-  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  padding: 2%;
+  /* Full height */
+  
 }
-
 
 .bgimg-1 {
-  background: url(../img/ramon.jpg) center center no-repeat fixed;
-  min-height: 100%;
-  background-size: 100%;
+  height: 100%;
+  background: url(../img/img1a.jpg) no-repeat center center fixed;  
+
 }
 
+.Omni_block{
+	position: relative;
+	border-radius: 8px;
+	width: 50%;
+	margin: auto;
+	background-color: #f5f5f0;
+	padding: 2%;
+	top: 40%;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
 
+}
+
+.btn_custom{
+	background-color: #1a8cff;
+	font-weight: bolder;
+	color: #fff;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
+	margin-top: 3%;
+}
+
+.chrisbio{
+	padding: 3%;
+}
+.chrisbio p{
+	text-align:justify; 
+	margin-top: 5%; 
+	font-size: 1.1em;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 70%;
+ 	height: auto;
+ 	background-size: cover;
+ 	background-position: center;
+ 	display: inline-block;
+ 	box-shadow:  0.00px 1.00px 25px 4px rgba(47,46,46,0.3);
+}
 
 .bgimg-2 {
-  background-image: url(../img/img2.jpg) ;
-  min-height: 400px;
+  height: 100%;
+  background: url(../img/img4.jpg) no-repeat center center fixed;  
+  
 }
 
 .bgimg-3 {
-  background-image: url(../img/img3.jpg) ;
-  min-height: 100%;
-  background-size: 100%;
-  box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
+  height: 100%;
+  background: url(../img/img3a.jpg) no-repeat center center fixed;  
+
 }
 
 .bgimg-4 {
-  /*background-image: url(../img/img4.jpg);*/
+
+  color: #b3b3b3;
+  font-weight: bolder;
   background-color: black;
-  min-height: 100%;
-  background-size: 100%;
-  box-shadow:  0.00px 1.00px 25px 4px rgba(0,0,0,0.5);
-  
+
 }
 
 .bgimg-5 {
-  background-image: url(../img/img5.jpg);
-  min-height: 100%;
-  background-size: 100%;
-  padding: 5%;
+  height: 100%;
+  background: url(../img/img5a.jpg) no-repeat center center fixed;  
+
 }
 
-.img-circle {
-    border-radius: 50%;
-     width: 30em;
- 	height: auto;
- 	background-size: cover;
- 	display: block;
- 	box-shadow:  0.00px 1.00px 25px 4px rgba(47,46,46,0.3);
-}
-/* ------------------------------------------------------------------------------
-   Pages
--------------------------------------------------------------------------------*/
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-.pageChris{
-	color: #777;
-	background-color:white;
-	text-align:center;
-	padding:50px 80px;
-	border:0px solid rgba(255, 255, 255, 1);
-	background-color:rgba(255, 255, 255, 1);
-	border-radius:0;  
-	box-shadow:0.00px 1.00px 25px 4px rgba(47,46,46,0.3);	
-}
-
-.pageEducation {
-  	color: #777;
-	background-color:white;
-	text-align:center;
-	padding:50px 80px;
-	border:0px solid rgba(255, 255, 255, 1);
-	background-color:rgba(255, 255, 255, 1);
-	border-radius:0;  
-	box-shadow:0.00px 1.00px 25px 4px rgba(47,46,46,0.3);
- 
-}
 
 .eduBoxes {
-	padding: 2%;
+	display: inline-block;
+	padding: 1%;
 	border-radius: 15px;
-    width: 100%;
+  	width: 80%;
  	height: auto;
  	background-size: cover;
- 	display: block;
  	box-shadow:  0.00px 1.00px 25px 4px rgba(255,255,255,0.5);
  	background-color: white;
- 	margin: 5%;
- 	font-size: 1.5em;
+ 	margin: 1.5%;
+ 	font-size: 1.2em;
  	text-align: justify;
+ }
 
-
-}
-
-.pageExp {
-  	color: #777;
-	background-color:white;
-	text-align:center;
-	padding:50px 80px;
-	border:0px solid rgba(255, 255, 255, 1);
-	background-color:rgba(255, 255, 255, 1);
-	border-radius:0;  
-	box-shadow:0.00px 1.00px 25px 4px rgba(47,46,46,0.3);
-	background-color: white;
- 	
- 
-}
-
-.expBoxes {
-	padding: 2%;
+ .expBoxes {
+ 	clear: both;
+ 	display: block;
+ 	overflow: auto;
+	padding: 1%;
 	border-radius: 15px;
-    width: 100%;
+  	width: 45%;
  	height: auto;
  	background-size: cover;
- 	display: block;
  	box-shadow:  0.00px 1.00px 25px 4px rgba(255,255,255,0.5);
  	background-color: white;
- 	margin: 5%;
- 	font-size: 1.5em;
+ 	margin: 1.5%;
+ 	font-size: 1.2em;
  	text-align: justify;
- 	background-color: white;
-
+ }
+ .expBoxes-right{
+ 	float: right;
+ }
+ .expBoxes-left{
+ 	float: left;
+ }
+ .SkillColumn{  
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    vertical-align: middle;
+    
 }
-.pageSkills{
-	padding: 2%;
-	color: white;
-}
-
-
-
-
-.pageContact {
-  	
-	background-color:white;
-	text-align:center;
-	
-	border:0px solid rgba(255, 255, 255, 1);
-	background-color:rgba(255, 255, 255, 1);
-	border-radius:15px;  
-	box-shadow:  0.00px 1.00px 25px 4px rgba(255,255,255,0.5);
-	background-color: white;
-	
- 	
- 
+.barAdvanced{
+  max-width: 50%;	
 }
 
-.item {
-	
-  
-  position: absolute;
-  top: 2500px;
-  margin-right: auto;
-  margin-left: auto;
-  left: 50%;
-              
+.barIntermediate{
+  max-width: 35%;
 }
-
-.path2 {
-  stroke-dasharray: 580;
-/*   stroke-dashoffset: 800; */
-  animation: draw1 6s ease-out reverse;
+.barBasic{
+  max-width: 20%;	
 }
+.bar{
+	max-height: 35px;	
+	text-align: center; 	
+	flex-wrap: wrap;
+	margin: 1%;
+    border-radius: 10px; 
+    padding: 5px;
+    color: black ;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;  
+    background: linear-gradient(to right, #b3b3b3 , #ffffff);
+    box-shadow:  0.00px 1.00px 25px 4px rgba(153,194,255,0.4);
 
-@keyframes draw1 {
-  from {
-    stroke-dashoffset: 0;
-  }
-  to {
-    stroke-dashoffset: 1120;
-  }
 }
-
-
-.foo {
-  min-height: 33vh;
-  margin-bottom: 10px;
-  padding: 10px;
-  color: white;
-  text-transform: uppercase;
-}
-
-
-
-
-
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -239,79 +217,61 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
+    color: white;   
+    border: 1px solid #ccc; /* Gray border */
     border-radius: 4px;
     cursor: pointer;
 }
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.contact_container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 /* ------------------------------------------------------------------------------
    Contact
 -------------------------------------------------------------------------------*/
  
 .contact h2 {
 	margin-bottom: 1.5em;
-
 	font-weight:700;
 	font-size:27px;
 	text-transform:uppercase;
 	letter-spacing:3px;
 }
+/* Add a background color and some padding around the form */
 .contact-form {
-
 	border-radius: 15px;
 	text-align:center;
-	
     background-color: white;
     padding: 2%;
+    margin-top: 5%;
 }
-
-
-
 .contact-form .form-control {
 	border-color: #b3b3b3;
-	margin-bottom: .75em;
-	padding: .75em 5px;
+	margin: 1%;
+	padding: 1%;
 }
 .contact-form label.error {
 	margin-bottom: 12px;
 	font-weight: 300;
 	color: #ea5050;
 }
-.contact .btn-default {
-	width: 100%;
-	color: #b3b3b3;
+.contact-form .btn-default {
+	width: 30%;
+	color: black;
 	border-color: #b3b3b3;
-	font-family: font97579;
-	
+	background-color: white;
 }
+
+/* When moving the mouse over the submit button, add a darker color */
+.contact-form .btn-default:hover {
+    background-color: #e6faff;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
+}
+
 /* ------------------------------------------------------------------------------
    contact Form Validation
 -------------------------------------------------------------------------------*/
-   
 
 .contact-form label.error i {
 	padding-right: 8px;
@@ -341,132 +301,11 @@ input[type=submit]:hover {
 	padding: .75em;
 }
 
-/* ------------------------------------------------------------------------------
-   Skills
--------------------------------------------------------------------------------*/
-
-
-
-.SkillColumn
-{
-    
-    margin-top: 2.5%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-   vertical-align: middle;
-    
+.bottom-container{
+	text-align: center;
 }
 
-   
-
-
-.barAdvanced{
-  width: 70%;
- 
-  margin-bottom: 10px;
-  padding: 5px;
-  color: black ;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 2.5%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    border-radius: 15px; 
-    background: linear-gradient(to right, #e0e0d1 , #ffffff);
-	font-weight: bold;
-    box-shadow:  0.00px 1.00px 25px 4px rgba(153,194,255,0.3);
-    	
-	
-}
-
-.barIntermediate{
-  width: 50%;
- 
-  margin-bottom: 10px;
-  padding: 5px;
-  color: black;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 2.5%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    border-radius: 15px;
-    background: linear-gradient(to right, #e0e0d1 , #ffffff);
-	font-weight: bold;
-    box-shadow:  0.00px 1.00px 25px 4px rgba(153,194,255,0.3); 
-	
-}
-
-.barBasic{
-
-  width: 30%;
- 
-  margin-bottom: 10px;
-  padding: 5px;
-  color: black;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 2.5%;
-  margin-bottom: 1%;
-  margin-left: 1%;
-  border-radius: 15px; 
-  background: linear-gradient(to right, #e0e0d1 , #ffffff);
-  font-weight: bold;
-    box-shadow:  0.00px 1.00px 25px 4px rgba(153,194,255,0.3);
-	
-}
-
-.logos{
-	width: 1.5em;	
-
-}
-
-
-.logos:hover  {
-    filter: brightness(0.3);
-}
-.font_1 {
-
-	font-family: font97579;
-	font-size: 2.5em; 
-	
-} 
-
-.font_2 {
-
-	font-family: font97579;
-	font-size: 2.5em; 
-	color:#FFFFFF;
-} 
-
-.font_3 {
-
-	font-family: font97579;
-	font-size: 5em; 
-	color:#333333;
-} 
-
-.font_4 {
-
-	font-family: font97579;
-	font-size: 5em; 
-	color:#FFFFFF;
-} 
-
-
-.color_head {color: #8495ae;}
-.color_25 {color: #8495ae;}
-.color_date {color: #1e252e;}
-.style_date{font-family: font97579; font-size: 1.3em;}
-
-.style_exp_date{font-family: font97579; font-size: 1.1em;}
-
-.backcolor_25 {background-color: #BEC7D5;}
-
-
-
-.pageFooter{
-
+footer{
 	height: 100px;
 	display: block;
 	background-color: black;
@@ -474,15 +313,78 @@ input[type=submit]:hover {
 	font-size: 1.2em;
 	padding: 2%;
 	text-align: center;
-
 }
 
-.smallImage{
+@media screen and (max-width: 990px){
+  .social_media_logo{
+  	margin-top: 20px;
+  }
+  .expBoxes{
+  	
+  	float: none;
+  	margin-right: auto;
+  	margin-left: auto;
+  	width: 80%;
 
-	width: 1.5em;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .eduBoxes{
+  	font-size: 1em;
+  	text-align: center;
+  }
+
+  .expBoxes{
+  	font-size: 1em;
+  	text-align: center;
+  }
+  .Omni_block h1{
+  	font-size: 2em;
+  }
+  .Omni_block h4{
+  	font-size: 1em;
+  }
 }
 
 
+/* Use lower res image on smaller devices.*/
+/*
+@media screen and (max-width: 960px){
+  .bgimg-1{
+  	background: url(../img/img1b.jpg) center center no-repeat fixed;
+  }
+  .bgimg-2{
+  	background: url(../img/img2b.jpg) center center no-repeat fixed;
+  }
+  .bgimg-3{
+  	background: url(../img/img3b.jpg) center center no-repeat fixed;
+  }
 
+  .bgimg-5{
+  	background: url(../img/img5b.jpg) center center no-repeat fixed;
+  }
+}
+*/
+/* Turn off parallax scrolling for all tablets and phones.*/
+@media only screen and (max-device-width: 1024px) {
 
+	.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+	  background-attachment: scroll;
 
+	}
+    
+}
+@media screen and (max-width: 767px)
+{
+	.bar{
+		margin: auto;
+	}
+
+}
+/*
+@font-face {
+    font-family: SIMPLIFICA;
+    src: url(../fonts/SIMPLIFICA/SIMPLIFICA Typeface.ttf);
+}
+*/
